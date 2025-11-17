@@ -35,7 +35,7 @@
               "RelativeDocumentMoniker": "..\\Calculator.Tests\\UnitTest1.cs",
               "ToolTip": "E:\\Pipeline\\GitPipeline\\Calculator.Tests\\UnitTest1.cs*",
               "RelativeToolTip": "..\\Calculator.Tests\\UnitTest1.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T05:44:31.314Z",
               "EditorCaption": ""
@@ -50,8 +50,7 @@
               "RelativeToolTip": "Calculator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T05:43:00.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T05:43:00.32Z"
             }
           ]
         }
