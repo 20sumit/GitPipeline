@@ -8,7 +8,7 @@ namespace Calculator.Tests
         [Fact]
         public void Add_ReturnsCorrectValue()
         {
-            Assert.Equal(8, CalculatorService.Add(5, 3));
+            Assert.Equal(8, CalculatorService.Add(5, 2));
         }
 
         [Fact]
