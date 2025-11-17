@@ -1,4 +1,4 @@
-name: .NET Build and Test (Windows)
+name: build-and-test
 
 on:
   push:
@@ -7,23 +7,29 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build-and-test:
+  build:
     runs-on: windows-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: '8.0.x'
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.x'
 
-      - name: Restore dependencies
-        run: dotnet restore
+    - name: Restore dependencies
+      run: dotnet restore Calculator/Calculator.csproj
 
-      - name: Build solution
-        run: dotnet build --configuration Release --no-restore
+    - name: Restore test dependencies
+      run: dotnet restore Calculator.Tests/Calculator.Tests.csproj
 
-      - name: Run tests
-        run: dotnet test --no-build --verbosity normal
+    - name: Build Calculator project
+      run: dotnet build Calculator/Calculator.csproj --configuration Release --no-restore
+
+    - name: Build Test project
+      run: dotnet build Calculator.Tests/Calculator.Tests.csproj --configuration Release --no-restore
+
+    - name: Run Tests
+      run: dotnet test Calculator.Tests/Calculator.Tests.csproj --no-build --verbosity normal
