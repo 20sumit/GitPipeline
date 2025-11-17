@@ -32,4 +32,6 @@ jobs:
       run: dotnet build Calculator.Tests/Calculator.Tests.csproj --configuration Release --no-restore
 
     - name: Run Tests
-      run: dotnet test Calculator.Tests/Calculator.Tests.csproj --no-build --verbosity normal
+      run: dotnet test Calculator.Tests/Calculator.Tests.csproj --configuration Release --no-build --verbosity normal
+
+
