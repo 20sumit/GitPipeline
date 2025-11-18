@@ -17,8 +17,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
@@ -33,9 +37,9 @@
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "E:\\Pipeline\\GitPipeline\\Calculator.Tests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "..\\Calculator.Tests\\UnitTest1.cs",
-              "ToolTip": "E:\\Pipeline\\GitPipeline\\Calculator.Tests\\UnitTest1.cs*",
-              "RelativeToolTip": "..\\Calculator.Tests\\UnitTest1.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAoAAAA2AAAAAAAAAA==",
+              "ToolTip": "E:\\Pipeline\\GitPipeline\\Calculator.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "..\\Calculator.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T05:44:31.314Z",
               "EditorCaption": ""
